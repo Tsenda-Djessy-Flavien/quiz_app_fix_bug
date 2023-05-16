@@ -32,6 +32,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
 
   @override
   Widget build(context) {
+    // dès que cette ligne de code là ou j'ai mis mon break point s'execute, l'execution de l'application // click droit - fenetre espoin
     final currentQuestion = questions[currentQuestionIndex];
 
     return SizedBox(
